@@ -1,5 +1,59 @@
 * {}
 
 header {
-    background-image: url(image-header.png);
+    background-image: url("assets/image-header.png");
+    height: 100vh;
+    /* 100% view height : pour avoir toute l'image visible */
+    background-repeat: no-repeat;
+    /* pour que l'image ne se répète pas */
+    background-size: cover;
+    /* pour que l'image prenne toute la place */
+}
+
+nav {
+    padding: 24px;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+h1,
+#titres_header {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 53px;
+    text-transform: uppercase;
+}
+
+header section a {
+    text-decoration: none;
+    color: white;
+}
+
+#centrer {
+    width: 600px;
+    margin: auto;
+}
+
+span {
+    font-size: 134px;
 }
